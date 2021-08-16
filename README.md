@@ -34,7 +34,7 @@ Query 2 - How to test the assigned task ?
                      > EMAIL_HOST_USER = '' # Enter Your Email from which you want to send email to students
                      > EMAIL_HOST_PASSWORD = '' # Enter Your GMail Password
                      
-         3. Ok now you are all set for testing, Hit the following URL in sequence listed below to get your report sent to email.
+         4. Ok now you are all set for testing, Hit the following URL in sequence listed below to get your report sent to email.
                      > Initialise Celery by hitting: http://127.0.0.1:8000/initialise-celery/ (Click on next URL as this URL starts loading)
                      > Generate & Mail Report by hitting: http://127.0.0.1:8000/generate-student-report/
                      > Report Sent to mail successfully
