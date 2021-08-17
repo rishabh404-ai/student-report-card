@@ -1,16 +1,23 @@
 # student-report-card
-Assignment for Backend Developer:
+Generating STUDENT REPORT CARD
 
-This repo contains the code & info of Trainman Assignment Task for generating STUDENT REPORT CARD
 
-Local Endpoint : http://127.0.0.1:8000/
+This mini backend only project contains the following:
 
-Some info regarding the project :
+         1. CRUD endpoints for students, subjects and marks.
+
+         2. An endpoint for scheduling a job that will prepare a report card for a specific student and then send the prepared report card to the student using email.
+
+         3. An endpoint to check the status of the job using the job id returned from the previous endpoint.
+
+         4. Used Celery / Crontab for asynchronous job processing.
+
 
 Name of project - mysite
 
 Name of app - myapp
 
+Local Endpoint : http://127.0.0.1:8000/
 
 Query 1 - How to get the app running ?
 
